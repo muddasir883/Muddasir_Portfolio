@@ -1,0 +1,71 @@
+.contact_wrapper svg {
+  font-size: 1em;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+
+  // The text you type in the input fields
+  input, textarea, .MuiInputBase-input {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+  }
+
+  // The labels (e.g. "Your Name", "Email / Phone", "Message")
+  .MuiInputLabel-root, label {
+    color: #444444 !important;
+    -webkit-text-fill-color: #444444 !important;
+  }
+
+  // The placeholder text inside input fields
+  input::placeholder, textarea::placeholder {
+    color: #666666 !important;
+    -webkit-text-fill-color: #666666 !important;
+    opacity: 1 !important;
+  }
+
+  button {
+    float: right;
+    background-color: white;
+    color: #050f0b;
+  }
+
+  button:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+
+  .MuiOutlinedInput-root {
+    background-color: white;
+  }
+
+  fieldset {
+    background-color: transparent !important;
+  }
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
+}
+
+.form-flex {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.form-flex .MuiFormControl-root {
+  width: 100%;
+}
+
+form {
+  width: 100% !important;
+}
+
+.body-form {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+}
